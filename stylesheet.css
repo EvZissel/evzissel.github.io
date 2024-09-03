@@ -110,14 +110,12 @@ h2 {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 260px;
   position: relative;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
+  width: 260px;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
@@ -132,4 +130,10 @@ h2 {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+.paper_info {
+  padding:20px;
+  width:75%;
+  vertical-align:top
 }

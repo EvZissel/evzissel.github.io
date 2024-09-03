@@ -9,9 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon"> -->
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
   </head>
-
   <body>
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
@@ -22,7 +20,7 @@
                 <p class="name" style="text-align: center;">
                   Ev Zisselman
                 </p>
-                <h2>Bio & Research Interests</h2>
+                <h2 style="padding-top:34px;">Bio & Research Interests</h2>
                 <p>I'm a PhD student at the Electrical & Computer Engineering <a href="https://ece.technion.ac.il/">(ECE)</a>  department at the <a href="https://www.technion.ac.il/en/home-2/">Technion</a>. I'm a member of the <a href="https://robotics.interia.website/research/">Robot Learning Lab</a>, under the guidance of Prof. <a href="https://avivt.github.io/avivt/">Aviv Tamar</a>. I have an M.Sc. from the Technion ECE, advised by Prof. <a href="https://elad.cs.technion.ac.il/">Michael Elad</a>. Previously, I obtained a B.Sc. in Electrical & Computer Engineering and a B.Sc. in Physics from the Technion.
                 </p>
                 <p>
@@ -36,7 +34,7 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/EvZisselman.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 8px;" alt="profile photo" src="images/EvZisselman.jpg" class="hoverZoomLink"></a>
+                <a href="images/EvZisselman.jpg"><img style="margin-top:50px; width:100%;max-width:100%;object-fit: cover; border-radius: 8px;" alt="profile photo" src="images/EvZisselman.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -69,7 +67,7 @@
           expgen_stop()
         </script>
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
+      <td class="paper_info">
         <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/c793577b644268259b1416464a6cdb8c-Paper-Conference.pdf">
           <span class="papertitle">Explore to Generalize in Zero-Shot RL</span>
         </a>
@@ -110,7 +108,7 @@
           Regulariz_stop()
         </script>
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
+      <td class="paper_info">
         <a href="https://arxiv.org/abs/2109.11792">
           <span class="papertitle">Regularization Guarantees Generalization in Bayesian Reinforcement Learning through Algorithmic Stability</span>
         </a>
@@ -148,7 +146,7 @@
           ResFlow_stop()
         </script>
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
+      <td class="paper_info">
         <a href="https://arxiv.org/abs/2001.05419">
           <span class="papertitle">Deep Residual Flow for Out of Distribution Detection</span>
         </a>
@@ -173,8 +171,8 @@
     <tr onmouseout="LoBCoD_stop()" onmouseover="LoBCoD_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='LoBCoD_image'><img src='images/Window_over.png' width=100%></div>
-          <img src='images/Window_results_box.png' width=100%>
+          <div class="two" id="LoBCoD_image"><img src="images/bird_Original.png" style="width: 100%; margin-top: -18px;"></div>
+          <img src="images/bird_foreground.png" style="width: 100%;margin-top: -18px;">
         </div>
         <script type="text/javascript">
           function LoBCoD_start() {
@@ -187,7 +185,7 @@
           LoBCoD_stop()
         </script>
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
+      <td class="paper_info">
         <a href="https://arxiv.org/abs/1811.00312">
           <span class="papertitle">Local Block Coordinate Descent (LoBCoD) Algorithm for the CSC Model</span>
         </a>
@@ -227,7 +225,7 @@
           Compress_stop()
         </script>
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
+      <td class="paper_info">
         <a href="https://www.sciencedirect.com/science/article/pii/S1570865918300024">
           <span class="papertitle">Compressed Learning for Image Classification: A Deep Neural Network Approach</span>
         </a>
@@ -251,7 +249,7 @@
             <tr>
               <td style="padding:0px">
                 <br>
-                <p style="text-align:right;font-size:small;">
+                <p style="text-align:center;font-size:small;">
                   Website credit: this website is based on <a href="https://jonbarron.info/">Jon Barron's</a> template (<a href="https://github.com/jonbarron/jonbarron_website">source code</a>)
                 </p>
               </td>
