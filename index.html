@@ -49,6 +49,45 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <tr onmouseout="blindfolded_stop()" onmouseover="blindfolded_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='blindfold_image'><img src='images/BF_method.png' width=100%></div>
+          <img src='images/BF_method.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function blindfolded_start() {
+            document.getElementById('blindfold_image').style.opacity = "1";
+          }
+
+          function blindfolded_stop() {
+            document.getElementById('blindfold_image').style.opacity = "0";
+          }
+          blindfolded_stop()
+        </script>
+      </td>
+      <td class="paper_info">
+        <a href="https://openreview.net/pdf?id=zqfT2QOiiF">
+          <span class="papertitle">Blindfolded Experts Generalize Better: Insights from Robotic Manipulation and Videogames</span>
+        </a>
+        <br>
+        <strong>Ev Zisselman</strong>,
+        <a>Mirco Mutti</a>,
+        <a>Shelly Francis-Meretzki</a>,
+        <a>Elisei Shafer</a>,
+        <a href="https://avivt.github.io/avivt/">Aviv Tamar</a>,
+        <br>
+        <em>ICML (EXAIT Workshop)</em>, 2025, <a style="font-weight:bold" href="https://exait-workshop.github.io/ap/">Best paper award</a>
+        <br>
+        <a href="https://openreview.net/pdf?id=zqfT2QOiiF">paper</a>
+        /
+        <a href="https://sites.google.com/view/blindfoldedexperts/home">website</a>
+        <p></p>
+        <p>
+          We propose to clone the behavior of "blindfolded" experts that are compelled to employ non-trivial exploration to solve the task, which leads to better generalization.
+        </p>
+      </td>
+    </tr>
 
     <tr onmouseout="expgen_stop()" onmouseover="expgen_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
