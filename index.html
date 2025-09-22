@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -20,17 +20,15 @@
                 <p class="name" style="text-align: center;">
                   Ev Zisselman
                 </p>
-                <h2 style="padding-top:34px;">Bio & Research Interests</h2>
+                <h2 style="padding-top:34px;">Bio </h2>
                 <p>I'm a PhD student at the Electrical & Computer Engineering <a href="https://ece.technion.ac.il/">(ECE)</a>  department at the <a href="https://www.technion.ac.il/en/home-2/">Technion</a>. I'm a member of the <a href="https://robotics.interia.website/research/">Robot Learning Lab</a>, under the guidance of Prof. <a href="https://avivt.github.io/avivt/">Aviv Tamar</a>. I have an M.Sc. from the Technion ECE, advised by Prof. <a href="https://elad.cs.technion.ac.il/">Michael Elad</a>. Previously, I obtained a B.Sc. in Electrical & Computer Engineering and a B.Sc. in Physics from the Technion.
                 </p>
-                <p>
-                  I am interested in designing machine learning algorithms for reliable sequential decision-making in complex environments. My main focus is generalization in deep reinforcement learning, learning from demonstration, exploration, and fast adaptation. I’m also interested in robotics, deep generative models, computer vision and image processing.  
-                </p>
                 <p style="text-align:center">
-                  <a href="mailto:eve.zisselman@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=wfLDM2oAAAAJ"> Google Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/EvZissel">Github</a> &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/in/ev-zisselman-7483167b/">LinkedIn</a>
+                  <a target="_blank" rel="noopener noreferrer" href="mailto:eve.zisselman@gmail.com">Email</a> /
+                  <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.com/citations?user=wfLDM2oAAAAJ"> Google Scholar</a> /
+                  <a target="_blank" rel="noopener noreferrer" href="https://github.com/EvZissel">Github</a> /
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ev-zisselman-7483167b/">LinkedIn</a> /
+                  <a target="_blank" rel="noopener noreferrer" href="./assets/ev_zisselman_cv_and_publications.pdf">CV</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
@@ -40,10 +38,21 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Publications</h2>
+              <td style="padding:0 20px;width:100%;vertical-align:middle">
+                <h2>Research</h2>
                 <p>
+                  I am interested in designing machine learning algorithms for reliable decision-making in complex environments. 
+                  My main focus is generalization in deep reinforcement learning, learning from demonstrations, exploration, and fast adaptation. 
+                  I’m also interested in robotics, RLHF, deep generative models and computer vision.  
                 </p>
+                <h3>News</h3>
+                <ul>
+                  <li>Our paper "Blindfolded Experts" has been accepted to NeurIPS'25.</li>
+                  <li>Our paper "Blindfolded Experts" has received the Best-paper award at the EXAIT workshop at ICML'25.</li>
+                  <li>Received the PBC’s Fellowships for Postdoc in AI.</li>
+                  <li>Received the Schmidt Postdoc Award for Women in Mathematical and Computing Sciences.</li>
+                </ul>
+                <h3>Publications</h3>
               </td>
             </tr>
           </tbody></table>
@@ -52,8 +61,8 @@
     <tr onmouseout="blindfolded_stop()" onmouseover="blindfolded_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='blindfold_image'><img src='images/BF_method.png' width=100%></div>
-          <img src='images/BF_method.png' width=100%>
+          <div class="two" id='blindfold_image'><img src='images/blindfolded_maze.gif' width=100%></div>
+          <img src='images/blindfolded_peg.gif' width=100%>
         </div>
         <script type="text/javascript">
           function blindfolded_start() {
@@ -77,7 +86,9 @@
         <a>Elisei Shafer</a>,
         <a href="https://avivt.github.io/avivt/">Aviv Tamar</a>,
         <br>
-        <em>ICML (</em><a style="font-weight:bold" href="https://exait-workshop.github.io/ap/">EXAIT Workshop</a><em>)</em>, 2025, <font color="red"><strong>Best paper award</strong></font>
+        <em>NeurIPS</em>, 2025
+        <br>
+        <em>ICML (</em><a style="font-weight:bold" href="https://exait-workshop.github.io/ap/">EXAIT Workshop</a><em>)</em>, 2025, <font color="red"><strong>(Best paper award)</strong></font>
         <br>
         <a target="_blank" rel="noopener noreferrer" href="https://openreview.net/pdf?id=zqfT2QOiiF">paper</a>
         /
@@ -94,8 +105,8 @@
     <tr onmouseout="expgen_stop()" onmouseover="expgen_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='expgen_image'><img src='images/Expen_gitHub_GIF.gif' width=100%></div>
-          <img src='images/ExpGen_NeurIPS2023_Thumbnail.png' width=100%>
+          <div class="two" id='expgen_image'><img src='images/ExpGen_maze.gif' width=100%></div>
+          <img src='images/Expen_gitHub_GIF.gif' width=100%>
         </div>
         <script type="text/javascript">
           function expgen_start() {
@@ -132,7 +143,7 @@
       </td>
     </tr>
 
-    <tr onmouseout="Regulariz_stop()" onmouseover="expgen_start()">
+    <tr onmouseout="Regulariz_stop()" onmouseover="Regulariz_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id="Regulariz_image"><img src='images/reg_mdp_aaai22.png' width=100%></div>
@@ -173,8 +184,8 @@
     <tr onmouseout="ResFlow_stop()" onmouseover="ResFlow_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='ResFlow_image'><img src='images/ResidualFlow_AUROC_vs_iterations.png' width=80%></div>
-          <img src='images/ResidualFlow_AUROC_vs_iterations.png' width=80%>
+          <div class="two" id='ResFlow_image'><img src='images/residual_Flow.png' width=80%></div>
+          <img src='images/residual_Flow_GIF.gif' width=80%>
         </div>
         <script type="text/javascript">
           function ResFlow_start() {
@@ -331,8 +342,8 @@
       <tr onmouseout="MNCCA_stop()" onmouseover="MNCCA_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
-            <div class="two" id="MNCCA_image"><img src="images/NCCA-Ev.png" width="80%"></div>
-            <img src="images/NCCA-Ev.png" width="80%">
+            <div class="two" id="MNCCA_image"><img src="images/NCCA.gif" width="80%"></div>
+            <img src="images/NCCA2.png" width="80%">
           </div>
           <script type="text/javascript">
             function MNCCA_start() {
